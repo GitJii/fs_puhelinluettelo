@@ -7,6 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.error {
+  color: red;
+  background: lightcoral;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: green;
+}
+
+.person {
+  color: blue;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

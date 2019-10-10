@@ -1,10 +1,17 @@
 import React from 'react'
 
-const Person = ({ person }) => {
+const Person = ({ person}) => {
+
     return (
-        <li>
-            {person.name} {person.number}
-        </li>
+        <table>
+            <tbody>
+                <tr>
+                    <td className='person'>
+                        {person.name} {person.number}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     )
 }
 
